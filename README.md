@@ -3,4 +3,6 @@
 ### Learning from Traversy Media 👍🏼
 ### Techonologies: HTML5, CSS3, jQuery
 
-## ![Alt text](./dist/img/screenshot.png?raw=true "G Photography")
+
+[💪🏼 Click to View](https://gloriading.github.io/g_photography/)
+## ![Alt text](images/screenshot.png?raw=true "G Photography")
