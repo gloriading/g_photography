@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
     <title>G Photography</title>
   </head>
   <body>
@@ -12,7 +14,7 @@
       <div id="landing">
         <div id="landing-text">
           <div id="landing-text-inner">
-            <h1>G Photography</h1>
+            <h1><span class="green-text">G</span> Photography</h1>
             <h2>Awesome Photography</h2>
             <a href="#images" class="btn" id="view-work">
               View Work
@@ -21,39 +23,93 @@
         </div>
         <div id="landing-images"></div>
       </div>
+
+
       <!-- Image Area -->
       <div id="images">
         <div id="header">
-          <h2>My Work</h2>
+          <h2>Our Work</h2>
         </div>
 
-        <img src="https://source.unsplash.com/1600x900/?tea" alt="My work">
+        <img src="images/felix-russell.jpg" alt="felix-russell">
         <div class="caption">
           <h3>Photo One</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <img src="https://source.unsplash.com/1600x900/?coffee" alt="My work">
+        <img src="images/keith-bremner.jpg" alt="keith-bremner">
         <div class="caption">
           <h3>Photo Two</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <img src="https://source.unsplash.com/1600x900/?juice" alt="My work">
+        <img src="images/mesut-kaya.jpg" alt="mesut-kaya">
         <div class="caption">
           <h3>Photo Three</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
-        <img src="https://source.unsplash.com/1600x900/?soda" alt="My work">
+        <img src="images/philipp-kammerer.jpg" alt="philipp-kammerer">
         <div class="caption">
           <h3>Photo Four</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <img src="images/shupin-zeng.jpg" alt="shupin-zeng">
+        <div class="caption">
+          <h3>Photo Five</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </div>
     </main>
     <footer>
-      <h3>Get In Touch</h3>
-      <p>Email or Call us to set up a consult</p>
-      <p>Email: <strong>contact@gphotography.ca</strong> </p>
-      <p>Phone: <strong>(778)888-1200</strong></p>
+      <div class="footer-container">
+
+        <div class="contact-info">
+          <i class="fas fa-mobile-alt fa-lg"></i>
+          <i class="fas fa-at fa-lg"></i>
+          <i class="fab fa-facebook-square fa-lg"></i>
+          <i class="fab fa-instagram fa-lg"></i>
+          <i class="fab fa-twitter-square fa-lg"></i>
+        </div>
+
+        <div id="author">
+          &copy;
+          <a class="pink" href="https://www.linkedin.com/in/gloriading/" target="_blank">
+            Glorious
+          </a>
+          Web Design
+        </div>
+
+        <div class="image-credits">
+          <div id="showCredits">
+            <i class="fas fa-chess-queen"></i>
+            Image Credits
+          </div>
+          <div class="credits-box">
+            <i class="far fa-times-circle fa-2x" id="close"></i>
+            <div class="credits-box-inner">
+              <p>Special thanks to:</p>
+              <a href="https://unsplash.com/" target="_blank">
+                Unsplash
+              </a>
+              <p>Image credits:</p>
+              <a href="https://unsplash.com/@jakobowens1" target="_blank">
+                Jakob Owens
+              </a>
+              <a href="https://unsplash.com/@kbrembo" target="_blank">
+                Keith Bremner
+              </a>
+              <a href="https://unsplash.com/@directormesut" target="_blank">
+                Mesut Kaya
+              </a>
+              <a href="https://unsplash.com/@philippcamera" target="_blank">
+                Philipp Kämmerer
+              </a>
+              <a href="https://unsplash.com/@ahhshupin" target="_blank">
+                Shupin Zeng
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </footer>
 
     <script
